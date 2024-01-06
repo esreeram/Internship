@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main
+{
+
+    height: 700px;
+    width: vw;
+    background-color:#DDD06A;
+    display: flex;
+}
+.main1
+{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    right: 25px;
+    bottom: 25px;
+    height: 650px;
+    width: 1400px;
+    background-color: #B2BEB5;
+    border-radius: 10px;
+}
+.main2
+{
+    height: 50px;
+    width: 1300px;
+   display: flex;
+   justify-content: space-between;
+   padding: 25px;
+   border-radius: 20px;
+}
+
+#name
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    color: #301934;
+    transition: ease-in;
+}
+#name:hover{
+    cursor: pointer;
+    color: #FF004F;
+    font-size: 55px ;
+}
+#nav
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px; 
+   transition: ease-in;
+   flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: black;
+  
+}
+a:hover{
+    cursor: pointer;
+    color: #FF004F;
+
+}
+button{
+    border-radius: 10px; 
+    background-color: rgb(22, 159, 70);
+    height: 30px;
+    width: 100px;
+    border:2px solid black;
+    transition: all 1s ease-in;
+}
+button:hover
+{
+    color: black;
+    background-color:white;
+    cursor: pointer;
+    transform: translateX(15px);
+    border-radius: 10px;
+    
+}
+.content
+{
+    display: flex;
+    justify-content: space-between;
+}
+#Skills
+{
+    height: 600px;
+    width: vw;
+    border: 2px solid #DDD06A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DDD06A;
+
+}
+#skill1{
+    height: 510px;
+    width: 400px;
+    background: linear-gradient(20deg,green,#DFFFFD);
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    transition: ease-in;
+    border-radius: 15px;
+}
+#skill1:hover{
+    cursor: pointer;
+    background:linear-gradient(45deg,#F4EBE8,#6A3E37) ;
+    transform: translateX(3px);
+}
+#skill2{
+    height: 510px;
+    width: 400px;
+    background: linear-gradient(20deg,green,#DFFFFD);
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    transition: ease-in;
+    border-radius: 15px;
+}
+#skill2:hover{
+    cursor: pointer;
+    background:linear-gradient(45deg,#F4EBE8,#6A3E37) ;
+    transform: translateX(3px);
+}
+#skill3{
+    height: 510px;
+    width: 400px;
+    background: linear-gradient(20deg,green,#DFFFFD);
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    transition: ease-in;
+     border-radius: 15px;
+}
+#skill3:hover{
+    cursor: pointer;
+    background:linear-gradient(45deg,#F4EBE8,#6A3E37) ;
+    transform: translateX(3px);
+}
+#about{
+    height: 550px;
+    width: vw;
+    background-color:#DDD06A;
+    display: flex;
+    justify-content: center;
+}
+#about1
+{
+    font-size: 20px;
+    height: 500px;
+    width:1400px ;
+    background-color: #FBCEB1;
+    border-radius: 10px;
+    transition: ease-in;
+}
+#about1:hover{
+    cursor: pointer;
+    background: linear-gradient(45deg,#EFDECD,#66FF00);
+}
